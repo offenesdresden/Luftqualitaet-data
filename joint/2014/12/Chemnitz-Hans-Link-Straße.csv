@@ -1,0 +1,17 @@
+Datum,Zeit,BEN,NO,NO2,O3,PM10,PM10_Pb,PM2.5,SO2
+yyyy-mm-dd,hh:mm,µg/m³,µg/m³,µg/m³,µg/m³,µg/m³,ng/m3,µg/m³,µg/m³
+20 =- (-fo 0,,,,,,,i < select.length,,
+20,s-be-<ltyle="float:left,,,,,,width:53px">Jahr</label>,,
+20 s-be-<ltyle="margin-left: 150px,,,,,,,float:left,,
+20,s-be-<ltyle="width:150px,,,,,,float:left" for="ctl00_Inhalt_AnfangszeitWeb">Datumseingabe</label>,,
+20 t-pu-<iype="submit" name="set_lang" value="Start" class="senden" tabindex="4" onclick="jump(document.form_userselect.langselect),,,,,,,return false;" />,,
+20 t-pu-<iype="submit" value="anzeigen" name="anzeigen" tabindex="8" onclick="jump(document.form_angebote.angebote),,,,,,,return false;" />,,
+20es-0--PMswerte bei &#8222;aktuelle Messwerte&#8220,,,,,,,(die letzten 3 Tage) bzw. in den,,
+20ht-ta-<mtp-equiv="Content-Type",content="text/html,,,,,,charset=iso-8859-1" />,,
+20n -ti-<oselected="selected" value="45,,,,,,,3600">Stundenmittelwert                       </option>,,
+20n,-ti-<ovalue="21,,,,,,86400">Tagesmittelwert                         </option>,,
+20n,-ti-<ovalue="32,,,,,,2">Jahresmittelwert                        </option>,,
+20n,-ti-<ovalue="38,,,,,,1">Monatsmittelwert                        </option>,,
+20na-ta-<mme="copyright",content="&copy,,,,,,S&auml;chsisches Staatsministerium f&uuml;r Umwelt und Landwirtschaft" />,,
+20st-an-<syle="display:block,,,,,,,float:left,,
+20ty-v,-<dle="width:150px,,,,,,float:left">Diagramm</div>,,
