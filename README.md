@@ -21,5 +21,9 @@ with one column for each substance.
 * Data that is generated on a monthly basis has date `01-MM-YYYY` for the month `MM-YYY` and time is empty.
 * Data that is generated on a daily basis has date `01-MM-YYYY` for that day and time is empty.
 
+## `vis/YEAR/MONTH/STATION,SUBSTANCE.png`
+These files are basically raw timeseries diagrams of `raw` files (currently just Dresden, with some modifications of the Python script in the same folder, you can easily create these for other cities)
+
+
 # Scripts
 The scripts that produce these files are in the repository [offenesdresden/Luftqualitaet-src](https://github.com/offenesdresden/Luftqualitaet-src).
