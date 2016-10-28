@@ -6,6 +6,7 @@ yyyy-mm-dd,hh:mm,µg/m³,mg/m3,µg/m³,µg/m³,µg/m³,µg/m³,ng/m3,µg/m³,µg
 20,s-be-<ltyle="width:150px,,,,float:left" for="ctl00_Inhalt_AnfangszeitWeb">Datumseingabe</label>,,,,,float:left" for="ctl00_Inhalt_AnfangszeitWeb">Datumseingabe</label>
 20 t-pu-<iype="submit" name="set_lang" value="Start" class="senden" tabindex="4" onclick="jump(document.form_userselect.langselect),,,,,return false;" />,,,,,return false;" />
 20 t-pu-<iype="submit" value="anzeigen" name="anzeigen" tabindex="8" onclick="jump(document.form_angebote.angebote),,,,,return false;" />,,,,,return false;" />
+2009-06-01,,,,,,,,4.84,,
 2009-06-01,01:00,,,1,5,68,,,,
 2009-06-01,02:00,,,1,6,66,,,,
 2009-06-01,03:00,,,1,6,66,,,,
@@ -749,7 +750,6 @@ yyyy-mm-dd,hh:mm,µg/m³,mg/m3,µg/m³,µg/m³,µg/m³,µg/m³,ng/m3,µg/m³,µg
 2009-06-30,22:00,,,1,11,74,,,,
 2009-06-30,23:00,,,1,15,48,,,,
 2009-07-01,00:00,,,1,13,59,,,,
-209-20-06,,,,,,,,4.84,,
 20es-0--PMswerte bei &#8222;aktuelle Messwerte&#8220,,,,,(die letzten 3 Tage) bzw. in den,,,,,(die letzten 3 Tage) bzw. in den
 20ht-ta-<mtp-equiv="Content-Type",content="text/html,,,,charset=iso-8859-1" />,,,,,charset=iso-8859-1" />
 20n -ti-<oselected="selected" value="21,,,,,86400">Tagesmittelwert                         </option>,,,,,
