@@ -1,0 +1,464 @@
+
+<?xml version="1.0" encoding="iso-8859-15"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+    
+<title>Aktuelle Messwerte - Datenrecherche</title>
+    
+    <meta http-equiv="Content-Type" content="text/html,charset=iso-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <meta name="DC.subject" content="sachsen.de : Umwelt" />
+    <meta name="keywords" lang="de" xml:lang="de" content="Umwelt" />
+    <meta name="description" lang="de" xml:lang="de" content="sachsen.de: Umwelt" />
+    <meta name="DC.Date.Modified" content="2009-07-28" />
+    <meta name="DC.Date.Created" content="2007-05-30" />
+    <meta name="author" content="Thorsten Blei" />
+    <meta name="publisher" content="Burkhard Lehmann" />
+    <meta name="copyright" content="&copy,S&auml;chsisches Staatsministerium f&uuml;r Umwelt und Landwirtschaft" />
+    <meta name="language" content="de" />
+    <meta name="robots" content="index. follow" />
+    <meta name="revisit-after" content="5 days" />
+    <meta name="MSSmartTagsPreventParsing" content="true" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" type="text/css" href="css/chrome_mhb.css" media="screen. projection" />
+    <link rel="stylesheet" type="text/css" href="css/farb_mhb.css" media="screen. projection" />
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print" title="print" />
+    <link rel="stylesheet" type="text/css" href="css/handheld.css" media="handheld" title="handheld" />
+    
+    <style type="text/css">
+        @media screen
+        {
+            div.divHeader
+            {
+                display: none;
+            }
+        }
+        @media print
+        {
+            .no-print. .no-print *
+            {
+                display: none !important;
+            }            
+        }
+    </style>    
+
+<script type="text/javascript">
+//<![CDATA[
+   function jump (select) {
+    for (i = 0,i < select.length,++i) {
+     if (select.options[i].selected == true) {
+           self.location.href = select.options[i].value;
+      }
+    }
+   }
+//]]>
+</script>
+</head>
+<body >
+    <ol class="jump">
+        <li><a href="#navigation">Navigation</a></li>
+        <li><a href="#inhalt">Inhalt</a></li>
+        <li><a href="#herausgeber">Herausgeber</a></li>
+    </ol>
+    <a name="top" id="top"></a>
+    <div class="no-print">
+    <div id="head2"><img src="symbole/signet_sachsen.gif" width="128" height="35" alt="Signet sachsen.de" />
+    <h2>Luft</h2>
+    <div class="fixfloat"></div>
+    </div>
+    <div id="head">
+    <div id="headL"><a href="http://www.sachsen.de"><img src="symbole/signet_sachsen.gif" alt="Verweis zu sachsen.de" title="Verweis zu sachsen.de" /></a></div>
+    <span><a href="http://www.luft.sachsen.de">Luft</a></span>    
+    </div>
+    </div>
+    <div id="metanav">
+        <form id="user" method="get" action="#" name="form_userselect">
+            <div>
+                <label for="langselect">Languages</label>
+                <select size="1" name="langselect" id="langselect" tabindex="3">
+                    <option value="http://www.umwelt.sachsen.de/umwelt/en/index.html">English</option>
+                </select>
+                <input type="submit" name="set_lang" value="Start" class="senden" tabindex="4" onclick="jump(document.form_userselect.langselect),return false;" />
+            </div>
+        </form>
+        <!-- <script type="text/javascript" src="http://search.sachsen.de/verity-sachsen/suche/common/js/basicQuery.js"></script> -->
+        <form id="formBasicQueryHead" action="http://search.sachsen.de/verity-sachsen/suche/pages/search/basic.jsp" method="get" onsubmit="generateQueryHead();">
+            <div class="last">
+                <label for="myTerm">Suche auf sachsen.de</label>
+                <input type="hidden" name="QuerySubmit" value="true" />
+                <input type="hidden" name="Page" value="1" />
+                <input type="hidden" name="QueryText" value="" />
+                <input type="hidden" name="LastQuery" value="" />
+                <input type="hidden" name="AdvQueryText" id="AdvQueryTextHead" value="" />
+                <input type="hidden" name="hiddenOriginalQueryText" id="hiddenOriginalQueryTextHead" value="" />
+                <input type="hidden" name="hiddenBasicQueryText" id="hiddenBasicQueryTextHead" value="" />
+                <input type="hidden" name="VLang" id="VLangHead" value="de" />
+                <input type="hidden" name="GUILang" id="GUILangHead" value="de" />
+                <input type="hidden" name="collections" id="collectionsHead" value="" />
+                <input type="text" name="TextInput" id="myTerm" value="Suchwort eingeben" onfocus="if (this.value == 'Suchwort eingeben') this.value=''" onblur="if (this.value == '') this.value='Suchwort eingeben'" size="20" />
+                <input type="submit" name="send" id="submitHead" value="finden" class="senden" />
+            </div>
+        </form>    
+        <div class="fixfloat"></div>
+    </div>
+
+    
+    <div id="contentarea">
+        
+        <div id="navi">
+            <h2 id="navigation"><a name="hauptnavigation">Navigation</a></h2>
+    
+            
+    <div class="breadcrumbs">
+        <ul>
+            <li><a href="http://www.sachsen.de"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />sachsen.de <img src="symbole/portal.gif" width="7" height="12" alt="[Portal]" /></a></li>
+            <li><a href="/umwelt/index.html"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />Umwelt                 <img src="symbole/portal.gif" width="7" height="12" alt="[Portal]" /></a></li>
+            <li><a href="/umwelt/luft/index.asp"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />Luft                 <img src="symbole/portal.gif" width="7" height="12" alt="[Portal]" /></a></li>
+        </ul>
+    </div>
+    <div class="menu">
+        <h3><a href="/umwelt/luft/3611.htm"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />Messung der Luftqualit&auml;t. Luftmessnetz</a></h3>
+        <ul>
+            <li><a href="/umwelt/luft/3649.htm"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />Luftmessnetz</a>
+                <ul>
+                    <li><a href="/umwelt/luft/3655.htm"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />Vorstellung des Luftmessnetzes</a></li>
+                    <li><a href="Uebersicht.aspx"><img src="symbole/vanstrich.gif" width="16" height="12" alt="aktuelle Seite ist" />Aktuelle Messwerte</a></li>
+                    <li><a href="PM10UebTage.aspx"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />PM10 Überschreitungstage</a></li>
+                    <li class="linkactive"><img src="symbole/vanstrich_open.gif" width="16" height="12" alt="" />Datenrecherche</li>
+                    <li><a href="/umwelt/luft/3653.htm"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />Luftqualit&auml;tsindex</a></li>
+                    <li><a href="/umwelt/luft/3652.htm"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />Grenz-. Schwellen- und Zielwerte</a></li>
+                    <li><a href="/umwelt/luft/3651.htm"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />Datenqualit&auml;t</a></li>
+                </ul>
+            </li>
+            <li><a href="/umwelt/luft/3648.htm"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />Immissionskataster</a></li>
+            <li><a href="/umwelt/luft/5693.htm"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />Immissionsberichte</a></li>
+            <li><a href="/umwelt/luft/3647.htm"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />Geruchsbelastung im Erzgebirge und Vogtland</a></li>
+            <li><a href="/umwelt/luft/3656.htm"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />Informationen zu Ozon</a></li>
+            <li><a href="/umwelt/luft/27090.htm"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />Sondermessungen</a></li>
+        </ul>
+    </div>
+
+
+            <div class="box">
+                <h3>Ihr Portal auf sachsen.de</h3>
+                <form method="get" action="#" name="form_angebote">
+                    <div>
+                        <label for="angebote" class="blind">Angebote</label>
+                        <select size="1" name="angebote" id="angebote" tabindex="7">
+                            <option value="http://www.invest-in-saxony.net" selected="selected">Investoren</option>
+                            <option value="http://www.medienservice.sachsen.de">Journalisten</option>
+                            <option value="http://www.sachsen-tourismus.de">Touristen</option>
+                        </select>
+                        <input type="submit" value="anzeigen" name="anzeigen" tabindex="8" onclick="jump(document.form_angebote.angebote),return false;" />
+                    </div>
+                </form>
+            </div>
+            <div class="box">
+                <!-- Links noch anpassen -->
+                <h3>Suche und &Uuml;bersicht</h3>
+                <ul>
+                    <li><a href="http://search.sachsen.de/verity-sachsen/suche/pages/search/advanced.jsp"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />Erweiterte Suche</a></li>                
+                    <li><a href="/umwelt/1745.htm"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />&Uuml;bersicht</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <a name="herausgeber" id="herausgeber"></a>
+                <h3>Herausgeber</h3>
+                <ul>
+                    <li><img src="symbole/vanstrich.gif" width="16" height="12" alt="" /><a href="http://www.smul.sachsen.de/lfulg"><span lang="en" xml:lang="en">&#169;</span> Sächsisches Landesamt für Umwelt. Landwirtschaft und Geologie</a>
+                        <ul>
+                            <li><a href="/umwelt/12788.htm"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />Impressum</a></li>
+                            <li><a href="/umwelt/1067.htm"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />Rechtliche Hinweise</a></li>
+                            <li><a href="/umwelt/1068.htm"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />Kontakt</a></li>
+                            <li><a href="http://www.secure.sachsen.de/esignatur/"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />eSignatur</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="http://amt24.sachsen.de/ZFinder/behoerden.do?modul=BHW"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />Beh&ouml;rdenwegweiser</a></li>
+                </ul>
+            </div> 
+        </div>
+        <div id="illu"></div>
+
+        
+<div id="content">
+    <a name="inhalt" id="inhalt">Inhalt</a>
+
+    <div class="titel">
+        <h1>Datenrecherche</h1>
+    </div>
+
+    <div class="fehler"><em>ACHTUNG:</em><p>Die Verbindung mit dem Remoteserver kann nicht hergestellt werden.</p></div>
+    
+    <div class="block">
+        <p>Mit der Datenrecherche kann man sich ältere Messwerte ab ca. 1997 als 
+        Tabelle und Diagramm anzeigen lassen. Es ist auch möglich die Messwerte 
+        als CSV-Datei herunterzuladen.</p>
+    </div>
+    
+    <div class="block">
+        <h2>Auswahl der Messwerte</h2>
+        <p>Treffen Sie in folgendem Formular eine Auswahl und bestätigen Sie diese 
+        mit dem Anzeigen-Button. Möchten Sie die Messwerte als CSV-Datei downloaden.
+        klicken Sie in diesem Fall auf den CSV-Download Button. Haben sie eine 
+        Frage wie eine Eingabe gemacht wird. sehen Sie unter:</p>
+        <a href="#HinweisZurEingabe"><img src="symbole/vanstrich_abwaerts.gif" width="16" height="12" alt="" />Hinweise zur Eingabe</a>
+    </div>
+
+    <form name="aspnetForm" method="post" action="recherche.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2MDAwNTE0MjkPZBYCZg9kFgICBQ9kFgICAw9kFggCAQ8QDxYCHgtfIURhdGFCb3VuZGdkEBUeEUFubmFiZXJnLUJ1Y2hob2x6B0JhdXR6ZW4FQm9ybmEHQnJvY2thdQlDYXJsc2ZlbGQXQ2hlbW5pdHotTGVpcHppZ2VyIFN0ci4aQ2hlbW5pdHotSGFucy1MaW5rLVN0cmHDn2UOQ2hlbW5pdHotTWl0dGUJQ29sbG1iZXJnE0RyZXNkZW4tQmVyZ3N0cmHDn2UMRHJlc2Rlbi1Ob3JkF0RyZXNkZW4tV2luY2tlbG1hbm5zdHIuC0ZpY2h0ZWxiZXJnCEZyZWliZXJnCEdsYXVjaGF1CEdvZXJsaXR6C0tsaW5nZW50aGFsGExlaXB6aWctTHVldHpuZXIgU3RyYcOfZQ1MZWlwemlnLU1pdHRlDkxlaXB6aWctVGhla2xhDExlaXB6aWctV2VzdAZOaWVza3kKUGxhdWVuLURXRAtQbGF1ZW4tU3VlZBJSYWRlYmV1bC1XYWhuc2RvcmYKU2Noa2V1ZGl0eg1TY2h3YXJ0ZW5iZXJnCFppbm53YWxkClppdHRhdS1Pc3QYWndpY2thdS1XZXJkYXVlciBTdHJhw59lFR4CNjEDMTkzAzIyMQIyNAI5MwI3MwI3NQI3MQMyMjMDMTE0AzExMgMxMTgCOTICOTECNDIDMTMxAjExAzIyNAMyMTEDMjE0AzIxMwMxMzICMjMCMjIDMTkxAzIyNQI4MQMxOTUDMTIxAjQ0FCsDHmdnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZxYBAg5kAgUPEA8WBh4NRGF0YVRleHRGaWVsZAUETmFtZR4ORGF0YVZhbHVlRmllbGQFBk51bW1lch8AZ2QQFQkDQkVOAkNPAk5PA05PMgJPMwRQTTEwB1BNMTBfUGIFUE0yLjUDU08yFQkFMTYxOzEFOTUyOzEFMTIxOzAFMTIyOzAEMjM7MAUyMjQ7MAU1NjA7MgUxMDk7MgQyMjsxFCsDCWdnZ2dnZ2dnZxYBAgVkAgcPEA8WBh8BBQROYW1lHwIFBk51bW1lch8AZ2QQFQQoOTAsNDElIFBlcnplbnRpbCBlaW5lcyBKYWhyZXMgYXVzIFRNVyAgIChKYWhyZXNtaXR0ZWx3ZXJ0ICAgICAgICAgICAgICAgICAgICAgICAgKE1vbmF0c21pdHRlbHdlcnQgICAgICAgICAgICAgICAgICAgICAgICAoVGFnZXNtaXR0ZWx3ZXJ0ICAgICAgICAgICAgICAgICAgICAgICAgIBUEBjE3NDsgMgUzMjsgMgUzODsgMQkyMTsgODY0MDAUKwMEZ2dnZxYBAgNkAgkPEA8WBh8BBQROYW1lHwIFBk51bW1lch8AZ2QQFQgAFkRpZSBsZXR6dGVuIDI0IFN0dW5kZW4WRGllIGxldHp0ZW4gNDggU3R1bmRlbhJEaWUgbGV0enRlbiA3IFRhZ2UQRGFzIGxldHp0ZSBNb25hdBREaWUgbGV0enRlbiAzIE1vbmF0ZRVEYXMgbGV0enRlIGhhbGJlIEphaHIPRGFzIGxldHp0ZSBKYWhyFQgBMAExATIBMwE0ATUBNgE3FCsDCGdnZ2dnZ2dnFgFmZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WBAUYY3RsMDAkSW5oYWx0JFN0YXRpb25MaXN0BRtjdGwwMCRJbmhhbHQkU2NoYWRzdG9mZkxpc3QFF2N0bDAwJEluaGFsdCRSYWRpb0xpbmllBRhjdGwwMCRJbmhhbHQkUmFkaW9CYWxrZW7ThyAug+3+mJL5Q0KdLVrJnjxesw==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8A9FA0C9" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWQALE3d7eBwLSjKHBCgKiisXWDwKb9OTjAwLWjJ3BCgLPjJnBCgLRjJnBCgLRjJHBCgLRjKHBCgKhipnVDwLNsMejAgKH44LICQKJh928DALPjKXBCgLPjKHBCgLUjKXBCgKc9NjjAwLXjKHBCgLMsLuiAgKb9ODjAwLMsMejAgKhiqXVDwKH4/rICQLWjJnBCgLWjKXBCgKc9IDjAwL3392ICALAjKHBCgLo3/mICAKc9OTjAwLUjJ3BCgKhmuF6AqSPw4ALAqCa0XYCz4HPgwsCq8fckQ0CkN+LtQ8Ch/SE7AYC3tTL3g8Cq8fszgQCiOLVAQKn34G1AgKk37m/AgLNy7SDCgKh4/m0CgK+4/m0CgK/4/m0CgK84/m0CgK94/m0CgK64/m0CgK74/m0CgK44/m0CgKwmK3DDQLEpLG3AQLvufLxCgLIkZrmCQLR2MGgDQLEpOG7AQLvueL1CgLIkerpCQLtzZmPCgKpmbWpDAKt5/fSDQLK5ICLDgLbGWIwXMFBPI5gLXTuBxaES8sh" />
+    <div class="linie">
+    <label style="width:150px,float:left" for="ctl00_Inhalt_StationList">Auswahl Messstationen</label>
+    <select size="4" name="ctl00$Inhalt$StationList" multiple="multiple" id="ctl00_Inhalt_StationList">
+	<option value="61">Annaberg-Buchholz</option>
+	<option value="193">Bautzen</option>
+	<option value="221">Borna</option>
+	<option value="24">Brockau</option>
+	<option value="93">Carlsfeld</option>
+	<option value="73">Chemnitz-Leipziger Str.</option>
+	<option value="75">Chemnitz-Hans-Link-Stra&#223;e</option>
+	<option value="71">Chemnitz-Mitte</option>
+	<option value="223">Collmberg</option>
+	<option value="114">Dresden-Bergstra&#223;e</option>
+	<option value="112">Dresden-Nord</option>
+	<option value="118">Dresden-Winckelmannstr.</option>
+	<option value="92">Fichtelberg</option>
+	<option value="91">Freiberg</option>
+	<option selected="selected" value="42">Glauchau</option>
+	<option value="131">Goerlitz</option>
+	<option value="11">Klingenthal</option>
+	<option value="224">Leipzig-Luetzner Stra&#223;e</option>
+	<option value="211">Leipzig-Mitte</option>
+	<option value="214">Leipzig-Thekla</option>
+	<option value="213">Leipzig-West</option>
+	<option value="132">Niesky</option>
+	<option value="23">Plauen-DWD</option>
+	<option value="22">Plauen-Sued</option>
+	<option value="191">Radebeul-Wahnsdorf</option>
+	<option value="225">Schkeuditz</option>
+	<option value="81">Schwartenberg</option>
+	<option value="195">Zinnwald</option>
+	<option value="121">Zittau-Ost</option>
+	<option value="44">Zwickau-Werdauer Stra&#223;e</option>
+
+</select>
+    
+    </div>
+        
+    <div class="linie">
+    <label style="width:150px,float:left" for="ctl00_Inhalt_SchadstoffList">Auswahl Schadstoffe</label>
+    <select size="4" name="ctl00$Inhalt$SchadstoffList" multiple="multiple" id="ctl00_Inhalt_SchadstoffList">
+	<option value="161;1">BEN</option>
+	<option value="952;1">CO</option>
+	<option value="121;0">NO</option>
+	<option value="122;0">NO2</option>
+	<option value="23;0">O3</option>
+	<option selected="selected" value="224;0">PM10</option>
+	<option value="560;2">PM10_Pb</option>
+	<option value="109;2">PM2.5</option>
+	<option value="22;1">SO2</option>
+
+</select>
+    <a href="#InformationZuPM10"><img src="symbole/vanstrich_abwaerts.gif" width="16" height="12" alt="" />Information zu PM10</a>
+    </div>
+    
+    <div class="linie">
+    <label style="width:150px,float:left" for="ctl00_Inhalt_MwttList">Art der Messung</label>
+    <select name="ctl00$Inhalt$MwttList" id="ctl00_Inhalt_MwttList">
+	<option value="174,2">90.41% Perzentil eines Jahres aus TMW   </option>
+	<option value="32,2">Jahresmittelwert                        </option>
+	<option value="38,1">Monatsmittelwert                        </option>
+	<option selected="selected" value="21,86400">Tagesmittelwert                         </option>
+
+</select>
+    <a href="#InformationZuDenMesswerttypen"><img src="symbole/vanstrich_abwaerts.gif" width="16" height="12" alt="" />Information zu den Perzentilen</a>
+    </div>    
+
+    <div class="linie">
+        <label style="width:150px,float:left" for="ctl00_Inhalt_LetzteList">Zeitraum</label>
+        <select name="ctl00$Inhalt$LetzteList" id="ctl00_Inhalt_LetzteList">
+	<option selected="selected" value="0"></option>
+	<option value="1">Die letzten 24 Stunden</option>
+	<option value="2">Die letzten 48 Stunden</option>
+	<option value="3">Die letzten 7 Tage</option>
+	<option value="4">Das letzte Monat</option>
+	<option value="5">Die letzten 3 Monate</option>
+	<option value="6">Das letzte halbe Jahr</option>
+	<option value="7">Das letzte Jahr</option>
+
+</select>
+        <br />
+        <br />
+        <label style="margin-left: 150px,float:left,width:34px">Tag</label>
+        <label style="float:left,width:34px">Mon</label>
+        <label style="float:left,width:53px">Jahr</label>
+        <label style="float:left,width:34px">Tag</label>
+        <label style="float:left,width:34px">Mon</label>
+        <label style="float:left,width:53px">Jahr</label>
+        <br />        
+        <label style="width:150px,float:left" for="ctl00_Inhalt_AnfangszeitWeb">Datumseingabe</label>
+        <!--<input name="ctl00$Inhalt$AnfangszeitWeb" type="text" id="ctl00_Inhalt_AnfangszeitWeb" style="width: 110px" />-->
+        <span style="display:block,float:left,width:34px">
+            <input name="ctl00$Inhalt$AZTag" type="text" id="ctl00_Inhalt_AZTag" style="width: 19px" maxlength="2" value="01" />
+            .
+        </span>
+        <span style="display:block,float:left,width:34px">
+            <input name="ctl00$Inhalt$AZMonat" type="text" id="ctl00_Inhalt_AZMonat" style="width: 19px" maxlength="2" value="06" />
+            .
+        </span>
+        <span style="display:block,float:left,width:53px">
+            <input name="ctl00$Inhalt$AZJahr" type="text" id="ctl00_Inhalt_AZJahr" style="width: 38px" maxlength="4" value="2016" />
+            -
+        </span>
+            <!--<input name="ctl00$Inhalt$EndzeitWeb" type="text" id="ctl00_Inhalt_EndzeitWeb" style="width: 110px" />-->
+        <span style="display:block,float:left,width:34px">
+            <input name="ctl00$Inhalt$EZTag" type="text" id="ctl00_Inhalt_EZTag" style="width: 19px" maxlength="2" value="01" />
+            .
+        </span>
+        <span style="display:block,float:left,width:34px">
+            <input name="ctl00$Inhalt$EZMonat" type="text" id="ctl00_Inhalt_EZMonat" style="width: 19px" maxlength="2" value="07" />
+            .
+        </span>
+        <input name="ctl00$Inhalt$EZJahr" type="text" id="ctl00_Inhalt_EZJahr" style="width: 38px" maxlength="4" value="2016" />
+    </div>
+        
+    <div class="linie">
+        <div style="width:150px,float:left">Diagramm</div>
+        <label for="ctl00_Inhalt_RadioLinie">Linie</label>
+        <input value="Linie" name="ctl00$Inhalt$DiagrammOpt" type="radio" id="ctl00_Inhalt_RadioLinie" checked="checked" />
+        <label for="ctl00_Inhalt_RadioBalken">Balken</label>
+        <input value="Balken" name="ctl00$Inhalt$DiagrammOpt" type="radio" id="ctl00_Inhalt_RadioBalken" />
+    </div>
+
+    <div class="submit">
+    <input type="submit" name="ctl00$Inhalt$BtnAnzeigen" value="Anzeigen" id="ctl00_Inhalt_BtnAnzeigen" class="button" />
+    &nbsp;oder&nbsp;
+    <input type="submit" name="ctl00$Inhalt$BtnCsvDown" value="CSV-Download" id="ctl00_Inhalt_BtnCsvDown" class="button" />      
+    </div>
+    </form>
+    
+    <a id="HinweisZurEingabe"></a>
+    <h2>Hinweise zur Eingabe</h2>
+    <p>
+    Mit der STRG Taste ist es möglich. mehrere Stationen bzw. Schad&shy;stof&shy;fe zu
+    markieren. Aus den Messstation-Schadstoff-Kombinationen. die sich dadurch
+    ergeben. werden nur gültige Kombinationen in der Tabelle bzw. im Diagramm
+    angezeigt.
+    Die Eingabe des Zeitraums kann ent&shy;we&shy;der über die Dropdown-Listbox erfolgen.
+    oder durch die Angabe von Anfangszeit und Endzeit in den dafür vorgesehenen
+    Texteingabefeldern.
+    </p>
+    
+    <div class="block">
+    <a id="InformationZuDenMesswerttypen"></a>
+    <h2>Information zu den Perzentilen</h2>
+    <p>
+    Das 99.79-Perzentil (bei NO<sub>2</sub>) entspricht dem 19. größten
+    Stundenmit&shy;telwert. Grenzwertüberschreitungen ab 99.79-Perzentil > 200 µg/m³. 
+    Das 90.41-Perzentil (bei PM10) entspricht dem 36. größten Tages&shy;mit&shy;tel&shy;wert. Grenzwertüberschreitungen
+    ab 90.41-Perzentil > 50 µg/m³.    
+    </p>
+    </div>
+    
+    <div class="block">
+    <a id="InformationZuPM10"></a>
+    <h2>Information zu PM10</h2>
+    <p>
+    An den Stationen. an den täglich gravimetrische PM10-Werte ermittelt werden. sind 
+    diese Werte Grundlage der Datenrecherche.  Die Messwerte liegen mit ca. 1 Monat 
+    Verzögerung für die Recherche vor. Für den fehlenden Zeitraum sind kontinuierliche 
+    PM10-Messwerte bei &#8222;aktuelle Messwerte&#8220, (die letzten 3 Tage) bzw. in den 
+    Tagesprotokollen zu finden. Weiterhin können auf Email-Anfrage entsprechende Daten
+    zur Verfügung gestellt werden.
+    </p>    
+    </div>    
+    
+    <div class="block">
+    <h2>Weitere Themen</h2>
+	<ul class="verweisliste2">
+	<li>
+	    <a href="Uebersicht.aspx"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />Übersicht</a><br />
+	    Im Messstationsübersichtsbild kann eine Messstation ausgewählt werden. Nach der Auswahl bekommt man
+	    die aktuellen Messwerte dieser Messstation angezeigt.    
+	</li>	
+	<li>
+	    <a href="Bulletin.aspx"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />Tagesprotokolle</a><br />
+	    In einer Liste werden die Tagesprotokolle als Excel- und PDF-Datei zum Download angeboten.
+	</li>
+	<li>
+	    <a href="PM10UebTage.aspx"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />PM10 Überschreitungstage</a><br />
+	    Hier werden die PM10 Grenzwertüberschreitungen der letzten 5 Jahre an allen PM10 Stationen
+	    dargestellt.
+	</li>	
+    </ul>        
+    </div>
+
+    <div class="linktop"><a href="#top"><img src="symbole/vanstrich_hoch.gif" width="16" height="12" alt="" />zurück zum Seitenanfang</a></div>    
+</div>
+
+        <div class="no-print">
+        <div id="quickbar">
+            <h2 id="marginal"><a name="marginalspalte" >Marginalspalte</a></h2>
+            <p><img src="img/marginale3.jpg" alt="Bild: Messung der Luftqualit&auml;t. Luftmessnetz" /></p>
+            
+            <div class="box">
+                <h3>Kontakt Auswerte- und Informationszentrum Luft (AIL)</h3>
+                <div class="rdkommentar"></div>
+                <h4></h4>
+                <p>S&auml;chsisches Landesamt f&uuml;r Umwelt. Landwirtschaft und Geologie</p>
+                <ul class="kontaktliste">
+                    <li><img src="symbole/postanschrift.gif" width="20" height="14" alt="Symbol" />Postanschrift:<br />Auswerte- und Informationszentrum Luft (AIL)<BR>Pillnitzer Platz 3<BR>01326 Dresden</li>
+                    <li><img src="symbole/besucheradresse.gif" width="20" height="14" alt="Symbol" />Besucheradresse:<br/>Söbrigener Str. 3a<BR>01326 Dresden</li>
+                    <li><img src="symbole/telefon.gif" width="20" height="14" alt="Telefon" />Telefon:&nbsp;(0351) 2612-5100</li>
+                    <li><img src="symbole/telefax.gif" width="20" height="14" alt="Telefax" />Telefax:&nbsp;(0351) 2612-5199</li>
+                    <li class="verweis"><img src="symbole/e-mail.gif" width="20" height="14" alt="Symbol" /><a href="mailto:AIL.LfUG@smul.sachsen.de"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />E-Mail</a></li>
+                    <li class="verweis"><img src="symbole/internetseite.gif" width="20" height="14" alt="Symbol" /><a href="http://www.smul.sachsen.de/lfulg"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />www.smul.sachsen.de/lfulg</a></li>
+                </ul>
+            </div>
+            
+            <div class="box">
+                <h3>Kontakt</h3>
+                <div class="rdkommentar"></div>
+                <h4>S&auml;chsisches Landesamt f&uuml;r Umwelt. Landwirtschaft und Geologie</h4>
+                <p>Referat 51 Luftqualit&auml;t</p>
+                <p>Dr. Andrea Hausmann</p>
+                <ul class="kontaktliste">
+                    <li><img src="symbole/telefon.gif" width="20" height="14" alt="Telefon" />Telefon:&nbsp;(0351) 8928-5100</li>
+                    <li class="verweis"><img src="symbole/e-mail.gif" width="20" height="14" alt="Symbol" /><a href="mailto:andrea.hausmann@smul.sachsen.de"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />E-Mail</a></li>
+                    <li class="verweis"><img src="symbole/internetseite.gif" width="20" height="14" alt="Symbol" /><a href="http://www.smul.sachsen.de/lfulg"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />www.smul.sachsen.de/lfulg</a></li>
+                </ul>
+                <h4>S&auml;chsisches Landesamt f&uuml;r Umwelt. Landwirtschaft und Geologie</h4>
+                <p>Referat 51 Luftqualit&auml;t</p>
+                <p>Annette Pausch</p>
+                <ul class="kontaktliste">
+                    <li><img src="symbole/telefon.gif" width="20" height="14" alt="Telefon" />Telefon:&nbsp;(0351) 8928-5103</li>
+                    <li class="verweis"><img src="symbole/e-mail.gif" width="20" height="14" alt="Symbol" /><a href="mailto:Annette.Pausch@smul.sachsen.de"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />E-Mail</a></li>
+                    <li class="verweis"><img src="symbole/internetseite.gif" width="20" height="14" alt="Symbol" /><a href="http://www.smul.sachsen.de/lfulg"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />www.smul.sachsen.de/lfulg</a></li>
+                </ul>
+            </div>
+            
+            <div class="box">
+                <h3>Weitere Informationen</h3>
+                <div class="rdkommentar"></div>
+                <ul class="verweisliste">
+                    <li><a href="https://publikationen.sachsen.de/bdb/artikel/26647" target="_blank"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />Luftqualität in Sachsen Jahresbericht 2015</a></li>               
+                    <li><a href="/umwelt/download/klima/Tagesverlauf_der_Feinstaubkonzentration_PM10.pdf" target="_blank"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />Allgemeiner Tagesverlauf der Feinstaubkonzentration <br />[Download.*<!IoRangePreExecute>.pdf. 0.05 MB]</a></li>
+                    <li><a href="/umwelt/infosysteme/luftonline/import/Grenzwertueberschreitungen_PM10-HVS_Internet.xlsx" target="_blank"><img src="symbole/vanstrich.gif" width="16" height="12" alt="" />PM10-Grenzwertüberschreitung-<br />en [Download.*.xlsx. 0.15MB]</a></li>
+                </ul>
+            </div>
+            
+            <div id="copy">
+                <a href="http://www.smul.sachsen.de/lfulg"><span lang="en" xml:lang="en">&#169;</span> Sächsisches Landesamt für Umwelt. Landwirtschaft und Geologie</a>
+            </div>
+        
+        </div>
+        </div>
+    </div>
+    
+</body>
+</html>
