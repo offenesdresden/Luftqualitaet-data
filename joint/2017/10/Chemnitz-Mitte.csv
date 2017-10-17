@@ -1,2 +1,2 @@
-Datum,Zeit,BEN,NO,NO2,O3,PM10,PM2.5,SO2
-yyyy-mm-dd,hh:mm,µg/m³,µg/m³,µg/m³,µg/m³,µg/m³,µg/m³,µg/m³
+Datum,Zeit,BEN,NO,NO2,O3,PM10,PM10_HVS,PM2.5,SO2
+yyyy-mm-dd,hh:mm,µg/m³,µg/m³,µg/m³,µg/m³,µg/m³,µg/m³,µg/m³,µg/m³
