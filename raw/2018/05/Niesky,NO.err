@@ -1,0 +1,51 @@
+Traceback (most recent call last):
+  File "/opt/luftsachsen/venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 393, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/opt/luftsachsen/venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 389, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.4/http/client.py", line 1172, in getresponse
+    response.begin()
+  File "/usr/lib/python3.4/http/client.py", line 351, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.4/http/client.py", line 313, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.4/socket.py", line 371, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/luftsachsen/venv/lib/python3.4/site-packages/requests/adapters.py", line 423, in send
+    timeout=timeout
+  File "/opt/luftsachsen/venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 640, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/opt/luftsachsen/venv/lib/python3.4/site-packages/requests/packages/urllib3/util/retry.py", line 261, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/opt/luftsachsen/venv/lib/python3.4/site-packages/requests/packages/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/opt/luftsachsen/venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 595, in urlopen
+    chunked=chunked)
+  File "/opt/luftsachsen/venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 395, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/opt/luftsachsen/venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 315, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+requests.packages.urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='www.umwelt.sachsen.de', port=80): Read timed out. (read timeout=45)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/luftsachsen/Luftqualitaet-src/AirImport/importer.py", line 148, in get_csv_data
+    'n. def.', '').replace(',', '.').replace(
+  File "/opt/luftsachsen/Luftqualitaet-src/AirImport/importer.py", line 160, in _get_string
+    response = self._session.post(uws.URL, self._post_data, timeout = 45)
+  File "/opt/luftsachsen/venv/lib/python3.4/site-packages/requests/sessions.py", line 522, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/opt/luftsachsen/venv/lib/python3.4/site-packages/requests/sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/luftsachsen/venv/lib/python3.4/site-packages/requests/sessions.py", line 596, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/luftsachsen/venv/lib/python3.4/site-packages/requests/adapters.py", line 499, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='www.umwelt.sachsen.de', port=80): Read timed out. (read timeout=45)
