@@ -1,2 +1,2 @@
-Datum,Zeit,BEN,DRUCK,FEUCHT,NO,NO2,O3,PM10_TEOM,RUSS_PM1,SO2,STRAHL,TEMP,WINDGE,WINDRI
-yyyy-mm-dd,hh:mm,µg/m³,hPa,PROZ,µg/m³,µg/m³,µg/m³,µg/m³,µg/m³,µg/m³,W/m2,GRADC,m/sec,GRAD
+Datum,Zeit,BEN,DRUCK,FEUCHT,NO,NO2,O3,PM10_HVS,PM10_TEOM,RUSS_PM1,SO2,STRAHL,TEMP,WINDGE,WINDRI
+yyyy-mm-dd,hh:mm,µg/m³,hPa,PROZ,µg/m³,µg/m³,µg/m³,µg/m³,µg/m³,µg/m³,µg/m³,W/m2,GRADC,m/sec,GRAD
